@@ -1,0 +1,6 @@
+streamlit==1.15.2
+faiss-cpu==1.7.3
+ffmpeg==1.4
+numpy==1.23.5
+pandas==1.5.2
+torch==1.13.1
