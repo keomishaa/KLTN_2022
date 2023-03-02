@@ -49,7 +49,7 @@ st.sidebar.markdown("<h1 style='font-size: 16px;'>Choose character</h1>", unsafe
 option_character = st.sidebar.selectbox('Choose character',
                                        lst_character , label_visibility="collapsed")
 
-feature_type = st.sidebar.radio("Face feature types", ["ArcFace", "FaceNet512"])
+feature_type = st.sidebar.radio("Face feature types", ["ArcFace", "Facenet512"])
 topk_value = st.sidebar.number_input('Choose top_k result', min_value=1, max_value=1000, step=1, value=5)
 #batch_size = st.sidebar.select_slider("Batch size:",range(10,110,10))
 batch_size = 10
